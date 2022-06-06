@@ -2,7 +2,7 @@
 <p> Na pasta Part-1 contém os programas relacionados a Fibonacci, solução das notas e soma dos números pares.
 
   
- Posteriormente eu criei 3 tabelas no BD PostgreSQL para a relação (FKs) entre marca, modelo e veículo no banco de dados;
+ Posteriormente relacionado a pasta fipe, criei 3 tabelas no BD PostgreSQL para a relação (FKs) entre marca, modelo e veículo no banco de dados;
 
 ![queries](https://user-images.githubusercontent.com/85499983/172169854-1eb4ab63-fe3b-4bb0-ae6d-b606cd5be7a6.PNG)
 
