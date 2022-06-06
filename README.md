@@ -21,7 +21,7 @@ Após a criação dessas tabelas eu fiz uma população das mesmas com os insert
 
 
 
-Após essa etapa eu iniciei o código na IDE Intellij IDEA.
+Após essa etapa foi iniciado o processo de codar na IDE Intellij IDEA.
 
 A API necessária para o teste não estava funcionando, então para se encaixar nas regras propostas foi necessário criar um mock dessa api na classe CarService, dentro do pacote service. Nesse mock foi utilizado 2 objetos propostos pelo problema para teste:
   
@@ -46,7 +46,7 @@ Depois de muitas regras implementadas eu iniciei o teste no Postman. O payload d
   
   
 
-De acordo com o mock feito, foi possível salvar carros no BD com apenas uma placa cadastrada, como também não possível cadastrar veículos com marca e/ou ano que não existiam na consulta dos dados da tabela FIPE(simulados pelo mock) ou no banco de dados;
+De acordo com o mock feito, foi possível salvar carros no BD com apenas uma placa cadastrada, como também não foi possível cadastrar veículos com marca e/ou ano que não existiam na consulta dos dados da tabela FIPE(simulados pelo mock) ou no banco de dados;
 
 Na etapa final foi implementado um método GET para busca de placas no BD.
 </p>
