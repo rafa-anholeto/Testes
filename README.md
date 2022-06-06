@@ -42,8 +42,7 @@ Depois de muitas regras implementadas eu iniciei o teste no Postman. O payload d
          "marca": 22,
          "modelo": 1027,
          "preco_anuncio": 7544.25,
-         "ano": 2015
-        
+         "ano": 2015 
 }
  ```
   
