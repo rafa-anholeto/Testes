@@ -33,14 +33,20 @@ A partir desse mock foi possível a verificação proposta [(Não poderá ser ca
 
 Depois de muitas regras implementadas eu iniciei o teste no Postman. O payload do postMapping utilizado foi esse:
   
-*  {
+```  
+{
          "placa": "XAS-4540",
          "marca": 22,
          "modelo": 1027,
          "preco_anuncio": 7544.25,
          "ano": 2015
         
-  }
+}
+ ```
+  
+  
 
 De acordo com o mock feito, foi possível salvar carros no BD com apenas uma placa cadastrada, como também não possível cadastrar veículos com marca e/ou ano que não existiam na consulta dos dados da tabela FIPE(simulados pelo mock) ou no banco de dados;
+
+Na etapa final foi implementado um método GET para busca de placas no BD.
 </p>
